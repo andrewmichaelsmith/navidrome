@@ -1,0 +1,16 @@
+# TODO
+
+#apiVersion: "v1"
+#kind: PersistentVolumeClaim
+#metadata:
+#  name: {{ include "navidrome.fullname" . }}
+#spec:
+# storageClassName: {{ .Values.storageClassName | quote }}
+# accessModes:
+#    - {{ .Values.accessMode | quote }}
+# resources:
+#   requests:
+#     storage: {{ .Values.capacity | quote }}
+
+
+
