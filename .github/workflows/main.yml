@@ -12,5 +12,5 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           token: ${{ secrets.BOT_TOKEN }}
-          charts_dir: .
+          charts_dir: navidrome
           branch: gh-pages
