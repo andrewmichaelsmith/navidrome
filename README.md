@@ -16,6 +16,6 @@ Custom values
 
 | Parameter                 | Description | Default |
 | ------------------------- | ----------- | ------- |
-| persistence.existingClaim | The PVC name that you would like to store music and data | nil |
+| persistence.existingClaim | The PVC name that you would like to store music and data. If unset, uses `emptyDir`. | nil |
 
 
