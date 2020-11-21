@@ -5,7 +5,7 @@ An **experimental** Helm chart for navidrome.
 # Quick start
 
 ```
-help repo add https://navidrome andrewmichaelsmith.github.io/navidrome
+help repo add navidrome https://andrewmichaelsmith.github.io/navidrome
 helm repo update   
 helm install navidrome/navidrome --generate-name
 ```
