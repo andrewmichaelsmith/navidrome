@@ -1,6 +1,6 @@
-# navidrome
+# Navidrome
 
-An **experimental** Helm chart for navidrome.
+An **experimental** Helm chart for [Navidrome](https://www.navidrome.org/).
 
 # Quick start
 
