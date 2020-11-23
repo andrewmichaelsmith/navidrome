@@ -79,6 +79,5 @@ tolerations: []
 affinity: {}
 
 persistence:
-  enabled: true
-  existingClaim: "navidrome"
+  enabled: false
 
