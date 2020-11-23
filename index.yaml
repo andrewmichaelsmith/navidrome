@@ -3,9 +3,9 @@ entries:
   navidrome:
   - apiVersion: v2
     appVersion: 0.38.0
-    created: "2020-11-22T10:04:31.199294215Z"
+    created: "2020-11-23T21:23:00.331103082Z"
     description: Experimental helm chart to run navidrome
-    digest: 53ec434c5bfbce7b3134508406477da180318b602ac14773ee528bf4b3e6a310
+    digest: 8efac72a7ae28b25f4dead9ce6520ad65d596750bd590f738d0b4b4fe8731703
     name: navidrome
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-22T10:04:31.198792297Z"
+    created: "2020-11-23T21:23:00.330556476Z"
     description: A Helm chart for Kubernetes
     digest: 5f62a39717945dc645678f7c43d90c05e216939675c5cb141cd0f4652c49ad3c
     name: navidrome
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://andrewmichaelsmith.github.io/navidrome/navidrome-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-22T10:04:31.198056772Z"
+generated: "2020-11-23T21:23:00.329827268Z"
