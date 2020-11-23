@@ -1,11 +1,11 @@
-# navidrome
+# Navidrome
 
-An **experimental** Helm chart for navidrome.
+An **experimental** Helm chart for [Navidrome](https://www.navidrome.org/).
 
 # Quick start
 
 ```
-help repo add https://navidrome andrewmichaelsmith.github.io/navidrome
+helm repo add navidrome https://andrewmichaelsmith.github.io/navidrome
 helm repo update   
 helm install navidrome/navidrome --generate-name
 ```
