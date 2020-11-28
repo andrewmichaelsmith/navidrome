@@ -5,9 +5,9 @@ metadata:
   labels:
     {{- include "navidrome.labels" . | nindent 4 }}
 spec:
-  {{- if not .Values.autoscaling.enabled }}
-  replicas: {{ .Values.replicaCount }}
-  {{- end }}
+  replicas: 1
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       {{- include "navidrome.selectorLabels" . | nindent 6 }}
